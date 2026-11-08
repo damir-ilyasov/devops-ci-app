@@ -65,9 +65,9 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
 
-    # ИНЦИДЕНТ 1: для push в GHCR права пока недостаточно.
     permissions:
       contents: read
+      packages: write
 
     steps:
       - name: Checkout
