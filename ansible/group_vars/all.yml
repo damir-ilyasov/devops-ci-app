@@ -4,3 +4,4 @@ app_tag: "4bf987f4240f9d3e97646e9a2e98407362a28139"
 app_container_name: "devops-ci-app"
 app_host_port: 5000
 app_internal_port: 5000
+ansible_become_exe: "sudo.ws"
